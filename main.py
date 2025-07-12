@@ -411,4 +411,4 @@ async def set_warn_limits(interaction: discord.Interaction, kick_warnings: int =
 
     await bot.process_commands(message)
 
-bot.run("MTM5MjQyOTU1MTY5MDE4Njc4Mg.G_lmuu.aNLjtxFXuZvoyXGPObDgcmDj_7bKopFMXP98fs")
+bot.run(os.getenv("TOKEN"))
